@@ -440,6 +440,45 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: var(--radius-sm);
 }
 
+/* ---------- Card with quotes (written-work cards) ---------- */
+.card-with-quotes .card-quotes {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  background: rgba(167, 139, 250, 0.05);
+  border: 1px solid rgba(167, 139, 250, 0.18);
+  border-radius: var(--radius-sm);
+}
+
+.card-with-quotes .card-quote {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-with-quotes .card-quote-theme {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--color-poetry);
+  margin: 0;
+}
+
+.card-with-quotes .card-quote-text {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 /* ============================================================
    JOHN'S RECOVERY ARC — special section
    ============================================================ */
